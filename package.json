@@ -1,0 +1,36 @@
+{
+  "name": "pixi-golden-spiral-timeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exemplo PixiJS de uma timeline interativa no formato da espiral dourada",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production",
+    "watch": "rollup -cw"
+  },
+  "keywords": [
+    "pixijs",
+    "golden-spiral",
+    "timeline",
+    "rollup"
+  ],
+  "author": "Rogério Castro @RogerioCastro",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.2",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "rollup": "^2.50.5",
+    "rollup-plugin-import-css": "^3.0.3",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "d3-scale": "^4.0.2",
+    "pixi-webfont-loader": "^1.0.2",
+    "pixi.js": "^6.4.2",
+    "tippy.js": "^6.3.7"
+  }
+}
